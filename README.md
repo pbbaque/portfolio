@@ -72,7 +72,7 @@ Proyecto personal con repositorio público.
 
 El portfolio puede consultarse en:
 
-> URL pendiente de despliegue en Vercel
+https://pbbaque-portfolio.vercel.app
 
 ## Contacto
 
