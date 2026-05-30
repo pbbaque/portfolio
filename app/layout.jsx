@@ -4,9 +4,39 @@ import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const siteUrl = "https://pbbaque-portfolio.vercel.app";
+
 export const metadata = {
-  title: "Portfolio - Desarrollador Full Stack",
-  description: "Portfolio profesional de desarrollador full stack",
+  metadataBase: new URL(siteUrl),
+  title: "Pablo Barreda | Full Stack Developer",
+  description:
+    "Portfolio profesional de Pablo Barreda, desarrollador Full Stack especializado en Java, Spring Boot, TypeScript, React, Next.js y soluciones apoyadas por IA.",
+
+  openGraph: {
+    title: "Pablo Barreda | Full Stack Developer",
+    description:
+      "Portfolio profesional con experiencia, proyectos y tecnologías Full Stack.",
+    url: siteUrl,
+    siteName: "Pablo Barreda Portfolio",
+    locale: "es_ES",
+    type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Pablo Barreda Portfolio",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Pablo Barreda | Full Stack Developer",
+    description:
+      "Portfolio profesional con experiencia, proyectos y tecnologías Full Stack.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({ children }) {
