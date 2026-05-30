@@ -14,23 +14,87 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Portfolio Profesional - Pablo Barreda
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Portfolio profesional desarrollado con Next.js y Tailwind CSS.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Este proyecto reúne mi experiencia como desarrollador Full Stack, proyectos freelance y productos propios, mostrando tanto tecnologías utilizadas como la evolución de mi perfil técnico.
 
-## Learn More
+## Sobre mí
 
-To learn more about Next.js, take a look at the following resources:
+Soy desarrollador Full Stack orientado al desarrollo de aplicaciones web, APIs REST y soluciones apoyadas por inteligencia artificial.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+He trabajado en proyectos utilizando Java, Spring Boot, TypeScript, Angular, React, Next.js, PostgreSQL, SQL y Git, tanto en entornos profesionales como en proyectos freelance y productos propios.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Actualmente desarrollo **NeighPets**, un ecosistema digital para propietarios de mascotas y organizaciones de rescate basado en una arquitectura modular compuesta por múltiples aplicaciones web y móviles.
 
-## Deploy on Vercel
+## Tecnologías principales
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Backend
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Java
+* Spring Boot
+* REST APIs
+* PostgreSQL
+* SQL
+
+### Frontend
+
+* TypeScript
+* JavaScript
+* Angular
+* React
+* Next.js
+* Tailwind CSS
+* Ionic
+
+### Herramientas
+
+* Git
+* GitHub
+* Docker
+* OpenAI
+* Codex
+* Vercel
+
+## Proyectos destacados
+
+### NeighPets
+
+Producto propio actualmente en desarrollo.
+
+* Arquitectura basada en Spring Boot, PostgreSQL, React y Next.js.
+* Desarrollo modular de múltiples aplicaciones web y móviles.
+* Uso de herramientas basadas en LLM para documentación técnica y aceleración del desarrollo.
+* Repositorios privados.
+
+### Siastyle
+
+Proyecto freelance actualmente en producción.
+
+* Personalización de tienda Shopify.
+* Desarrollo con Liquid y JavaScript.
+* Soporte mediante herramientas de IA asistida.
+
+### LedgerLy
+
+Proyecto personal con repositorio público.
+
+* Aplicación orientada a la gestión de facturación y operaciones empresariales.
+* Desarrollo Full Stack.
+* Modelado de datos e interfaces administrativas.
+
+## Portfolio Online
+
+El portfolio puede consultarse en:
+
+> URL pendiente de despliegue en Vercel
+
+## Contacto
+
+* LinkedIn: https://linkedin.com/in/pablo-barreda-baque-0a770824a/
+* GitHub: https://github.com/pbbaque
+
+---
+
+Desarrollado con Next.js 16 y Tailwind CSS.
