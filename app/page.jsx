@@ -40,7 +40,8 @@ export default function Home() {
           <p className="text-lg text-gray-500 dark:text-gray-400 max-w-3xl mx-auto mb-10">
             Trabajo con Java, Spring Boot, TypeScript, React, Next.js y
             PostgreSQL. Actualmente desarrollo NeighPets, una plataforma digital
-            modular apoyada por tecnologías LLM y automatización.
+            basada en una arquitectura por capas con organización por dominios,
+            apoyada por tecnologías LLM y automatización.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -113,8 +114,9 @@ export default function Home() {
               <p className="text-lg text-gray-600 dark:text-gray-300 mb-4">
                 Actualmente desarrollo NeighPets, una plataforma compuesta por
                 varios productos digitales para propietarios de mascotas y
-                organizaciones de rescate, utilizando una arquitectura basada en
-                Spring Boot, PostgreSQL, React y Next.js.
+                organizaciones de rescate, utilizando una arquitectura por capas
+                con organización interna por dominios basada en Spring Boot,
+                PostgreSQL, React y Next.js.
               </p>
 
               <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
@@ -157,8 +159,8 @@ export default function Home() {
                     {[
                       ["Products", "1 / 4"],
                       ["Repositories", "5"],
-                      ["Architecture", "Modular"],
-                      ["Status", "MVP"],
+                      ["Architecture", "Layered + Domain"],
+                      ["Status", "Active Development"],
                     ].map(([label, value]) => (
                       <div
                         key={label}
@@ -229,9 +231,9 @@ export default function Home() {
               icon="fas fa-paw"
               gradient="from-purple-400 to-pink-400"
               title="NeighPets"
-              description="Plataforma modular en desarrollo para propietarios de mascotas y organizaciones de rescate. Incluye backend Spring Boot, base de datos PostgreSQL, aplicaciones web con React/Next.js, documentación técnica y flujo de trabajo asistido por LLM."
+              description="Plataforma en desarrollo para propietarios de mascotas, profesionales del sector y organizaciones de rescate. Incluye backend estructurado mediante una arquitectura por capas con organización interna por dominios, base de datos PostgreSQL, aplicaciones web con React/Next.js, documentación técnica y flujo de trabajo asistido por LLM."
               tech={["Spring Boot", "PostgreSQL", "React", "Next.js", "LLM"]}
-              status="Producto propio · MVP en desarrollo"
+              status="Producto propio · Active Development"
               demoLabel="Lanzamiento próximo"
               codeLabel="Repositorio privado"
             />
