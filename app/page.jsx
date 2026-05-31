@@ -137,10 +137,10 @@ export default function Home() {
               </a>
             </div>
 
-            <div className="relative">
-              <div className="hidden md:block aspect-square bg-gradient-to-br from-purple-400 to-blue-500 rounded-2xl transform rotate-6"></div>
+            <div className="relative min-h-[720px] sm:min-h-[680px] md:min-h-0">
+              <div className="absolute inset-0 bg-gradient-to-br from-purple-400 to-blue-500 rounded-2xl transform rotate-2 md:rotate-6"></div>
 
-              <div className="relative md:absolute md:inset-0 bg-white dark:bg-gray-700 border border-transparent dark:border-gray-600 rounded-2xl p-6 lg:p-7 flex flex-col justify-between shadow-xl">
+              <div className="absolute inset-0 bg-white dark:bg-gray-700 border border-transparent dark:border-gray-600 rounded-2xl p-6 lg:p-7 flex flex-col justify-between shadow-xl">
                 <div>
                   <span className="text-xs text-purple-600 dark:text-purple-400 font-semibold tracking-wide">
                     CURRENTLY BUILDING
