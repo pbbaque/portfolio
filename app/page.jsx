@@ -25,7 +25,7 @@ export default function Home() {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6">
-            Pablo Barreda
+            Pablo Barreda Baque
           </h1>
 
           <h2 className="text-3xl md:text-4xl font-semibold gradient-text mb-6">
@@ -34,14 +34,14 @@ export default function Home() {
 
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-4">
             Desarrollador Full Stack especializado en APIs REST, aplicaciones
-            web modernas e integración de herramientas basadas en IA.
+            web modernas y desarrollo de soluciones software.
           </p>
 
           <p className="text-lg text-gray-500 dark:text-gray-400 max-w-3xl mx-auto mb-10">
             Trabajo con Java, Spring Boot, TypeScript, React, Next.js y
             PostgreSQL. Actualmente desarrollo NeighPets, una plataforma digital
             basada en una arquitectura por capas con organización por dominios,
-            apoyada por tecnologías LLM y automatización.
+            apoyada por herramientas de IA generativa y automatización.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -330,7 +330,8 @@ export default function Home() {
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300">
               Estoy disponible para oportunidades profesionales y proyectos
-              relacionados con desarrollo Full Stack e IA aplicada.
+              relacionados con desarrollo Full Stack, automatización y
+              soluciones software modernas.
             </p>
           </div>
 
