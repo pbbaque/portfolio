@@ -17,9 +17,12 @@ export default function Home() {
         id="inicio"
         className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-50 via-white to-blue-50 dark:from-gray-900 dark:via-gray-900 dark:to-gray-900 pt-16 transition-colors"
       >
-        <div className="pointer-events-none absolute -top-24 -left-24 h-72 w-72 rounded-full bg-purple-300/30 blur-3xl dark:bg-purple-700/20"></div>
-        <div className="pointer-events-none absolute top-1/3 -right-24 h-80 w-80 rounded-full bg-blue-300/30 blur-3xl dark:bg-blue-700/20"></div>
-        <div className="pointer-events-none absolute bottom-20 left-1/2 h-64 w-64 -translate-x-1/2 rounded-full bg-purple-200/30 blur-3xl dark:bg-purple-900/20"></div>
+        <div className="pointer-events-none absolute -top-32 -left-32 h-[520px] w-[520px] rounded-full bg-purple-300/25 blur-3xl dark:bg-purple-700/20"></div>
+
+        <div className="pointer-events-none absolute left-1/2 top-[58%] h-[620px] w-[620px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-blue-200/35 blur-3xl dark:bg-blue-800/20"></div>
+
+        <div className="pointer-events-none absolute -bottom-40 -right-32 h-[560px] w-[560px] rounded-full bg-purple-300/25 blur-3xl dark:bg-purple-900/25"></div>
+
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center animate-fade-in">
           <div className="mb-6">
             <span className="text-purple-600 dark:text-purple-400 font-medium text-lg">
