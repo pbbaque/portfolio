@@ -17,7 +17,10 @@ export default function Home() {
         id="inicio"
         className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-50 via-white to-blue-50 dark:from-gray-900 dark:via-gray-900 dark:to-gray-900 pt-16 transition-colors"
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center animate-fade-in">
+        <div className="pointer-events-none absolute -top-24 -left-24 h-72 w-72 rounded-full bg-purple-300/30 blur-3xl dark:bg-purple-700/20"></div>
+        <div className="pointer-events-none absolute top-1/3 -right-24 h-80 w-80 rounded-full bg-blue-300/30 blur-3xl dark:bg-blue-700/20"></div>
+        <div className="pointer-events-none absolute bottom-20 left-1/2 h-64 w-64 -translate-x-1/2 rounded-full bg-purple-200/30 blur-3xl dark:bg-purple-900/20"></div>
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center animate-fade-in">
           <div className="mb-6">
             <span className="text-purple-600 dark:text-purple-400 font-medium text-lg">
               👋 Hola, soy
@@ -140,7 +143,7 @@ export default function Home() {
             <div className="relative min-h-[720px] sm:min-h-[680px] md:min-h-0 md:aspect-square">
               <div className="absolute inset-0 bg-gradient-to-br from-purple-400 to-blue-500 rounded-2xl transform rotate-2 md:rotate-6"></div>
 
-              <div className="absolute inset-0 bg-white dark:bg-gray-700 border border-transparent dark:border-gray-600 rounded-2xl p-6 lg:p-7 flex flex-col justify-between shadow-xl">
+              <div className="absolute inset-0 bg-white dark:bg-gray-700 border border-transparent dark:border-gray-600 rounded-2xl p-6 lg:p-7 flex flex-col shadow-xl">
                 <div>
                   <span className="text-xs text-purple-600 dark:text-purple-400 font-semibold tracking-wide">
                     CURRENTLY BUILDING
