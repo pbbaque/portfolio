@@ -25,7 +25,7 @@ export default function Home() {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6">
-            Pablo Barreda Baque
+            Pablo Barreda
           </h1>
 
           <h2 className="text-3xl md:text-4xl font-semibold gradient-text mb-6">
