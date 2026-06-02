@@ -30,11 +30,11 @@ export default function Home() {
             </span>
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
             Pablo Barreda
           </h1>
 
-          <h2 className="text-3xl md:text-4xl font-semibold gradient-text mb-6">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold gradient-text mb-6 leading-tight">
             Desarrollador Full Stack
           </h2>
 
