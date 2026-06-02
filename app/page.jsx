@@ -15,7 +15,7 @@ export default function Home() {
 
       <section
         id="inicio"
-        className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-50 via-white to-blue-50 dark:from-gray-900 dark:via-gray-900 dark:to-gray-900 pt-16 transition-colors"
+        className="relative overflow-hidden min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-50 via-white to-blue-50 dark:from-gray-900 dark:via-gray-900 dark:to-gray-900 pt-16 transition-colors"
       >
         <div className="pointer-events-none absolute -top-32 -left-32 h-[520px] w-[520px] rounded-full bg-purple-300/25 blur-3xl dark:bg-purple-700/20"></div>
 
@@ -30,11 +30,11 @@ export default function Home() {
             </span>
           </div>
 
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6">
             Pablo Barreda
           </h1>
 
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold gradient-text mb-6 leading-tight">
+          <h2 className="text-3xl md:text-4xl font-semibold gradient-text mb-6">
             Desarrollador Full Stack
           </h2>
 
