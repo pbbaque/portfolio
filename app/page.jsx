@@ -263,7 +263,8 @@ export default function Home() {
               description="Aplicación web para gestión de facturación y operaciones empresariales. Proyecto orientado al desarrollo full-stack, modelado de datos, interfaces administrativas y organización de procesos de negocio."
               tech={["React", "Node.js", "MongoDB"]}
               status="Proyecto personal · Repositorio público"
-              demoLabel="Demo próximamente"
+              demoLabel="Ver demo"
+              demoHref="/videos/ledgerly-demo.mp4"
               codeLabel="GitHub"
               codeHref="https://github.com/pbbaque/Invoice-manager-project"
             />
