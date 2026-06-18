@@ -260,9 +260,9 @@ export default function Home() {
               icon="fas fa-file-invoice-dollar"
               gradient="from-green-400 to-teal-400"
               title="LedgerLy"
-              description="Aplicación web para gestión de facturación y operaciones empresariales. Proyecto orientado al desarrollo full-stack, modelado de datos, interfaces administrativas y organización de procesos de negocio."
-              tech={["React", "Node.js", "MongoDB"]}
-              status="Proyecto personal · Repositorio público"
+              description="Aplicación full-stack para gestión de facturación y operaciones empresariales. Incluye autenticación JWT, dashboard, gestión de clientes, productos e invoices, API REST con Spring Boot, persistencia MySQL y tests de frontend y backend."
+              tech={["Angular", "Spring Boot", "Java", "MySQL", "JWT"]}
+              status="Proyecto personal · Portfolio demo"
               demoLabel="Ver demo"
               demoHref="/videos/ledgerly-demo.mp4"
               codeLabel="GitHub"
