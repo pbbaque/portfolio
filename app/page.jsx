@@ -469,7 +469,7 @@ function ProjectCard({
 
         <p className="text-gray-600 dark:text-gray-300 mb-4">{description}</p>
 
-        <div className="flex flex-wrap gap-2 mb-4">
+        <div className="mt-auto flex min-h-16 flex-wrap content-start items-start gap-2 mb-4">
           {tech.map((item) => (
             <span
               key={item}
@@ -480,7 +480,7 @@ function ProjectCard({
           ))}
         </div>
 
-        <div className="mt-auto flex min-h-12 items-start gap-4">
+        <div className="flex min-h-12 items-start gap-4">
           {demoHref ? (
             <a
               href={demoHref}
