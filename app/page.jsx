@@ -3,8 +3,10 @@
 
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Home() {
+  const [showAllProjects, setShowAllProjects] = useState(false);
   const githubUrl = "https://github.com/pbbaque";
   const linkedinUrl = "https://linkedin.com/in/pablo-barreda-baque-0a770824a/";
   const email = "pbbaque@gmail.com";
@@ -267,7 +269,12 @@ export default function Home() {
               codeLabel="GitHub"
               codeHref="https://github.com/pbbaque/Invoice-manager-project"
             />
+          </div>
 
+          <div
+            id="more-projects"
+            className={showAllProjects ? "grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8" : "hidden"}
+          >
             <ProjectCard
               icon="fas fa-store"
               gradient="from-blue-400 to-cyan-400"
@@ -279,6 +286,28 @@ export default function Home() {
               codeLabel="Repositorio privado"
               demoHref="https://siastyle.shop"
             />
+          </div>
+
+          <div className="flex justify-center mt-10">
+            <button
+              type="button"
+              aria-expanded={showAllProjects}
+              aria-controls="more-projects"
+              onClick={() => setShowAllProjects((expanded) => !expanded)}
+              className="flex flex-col items-center gap-2 rounded-lg px-6 py-3 text-purple-600 dark:text-purple-400 font-semibold hover:bg-purple-100 dark:hover:bg-gray-800 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-500 focus-visible:ring-offset-4 dark:focus-visible:ring-offset-gray-900"
+            >
+              <span>{showAllProjects ? "Ver menos proyectos" : "Ver más proyectos"}</span>
+              <svg
+                aria-hidden="true"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                className={`h-7 w-7 transition-transform motion-reduce:transition-none ${showAllProjects ? "rotate-180" : ""}`}
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d="m6 9 6 6 6-6" />
+              </svg>
+            </button>
           </div>
         </div>
       </section>
