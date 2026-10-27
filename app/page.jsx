@@ -245,15 +245,14 @@ export default function Home() {
             />
 
             <ProjectCard
-              icon="fas fa-store"
-              gradient="from-blue-400 to-cyan-400"
-              title="Siastyle"
-              description="Tienda Shopify en producción. Personalización de plantilla con Liquid, ajustes visuales y soporte en generación de contenido mediante herramientas de IA asistida."
-              tech={["Shopify", "Liquid", "JavaScript", "IA asistida"]}
-              status="Proyecto freelance · En producción"
-              demoLabel="Ver web"
-              codeLabel="Repositorio privado"
-              demoHref="https://siastyle.shop"
+              icon="fas fa-university"
+              gradient="from-indigo-500 to-blue-500"
+              title="Banking Platform"
+              description="Plataforma bancaria full-stack con frontend Angular y cinco microservicios para autenticación, clientes, cuentas, transferencias y auditoría. Incluye JWT con RSA, operaciones idempotentes, compensación y recuperación de transferencias, y auditoría mediante Kafka y Transactional Outbox."
+              tech={["Java", "Spring Boot", "Angular", "Oracle", "Kafka", "Docker"]}
+              status="Proyecto personal · Finalizado"
+              codeLabel="GitHub"
+              codeHref="https://github.com/pbbaque/banking-platform"
             />
 
             <ProjectCard
@@ -262,11 +261,23 @@ export default function Home() {
               title="LedgerLy"
               description="Aplicación full-stack para gestión de facturación y operaciones empresariales. Incluye autenticación JWT, dashboard, gestión de clientes, productos e invoices, API REST con Spring Boot, persistencia MySQL y tests de frontend y backend."
               tech={["Angular", "Spring Boot", "Java", "MySQL", "JWT"]}
-              status="Proyecto personal · Portfolio demo"
+              status="Proyecto personal · Finalizado"
               demoLabel="Ver demo"
               demoHref="/videos/ledgerly-demo.mp4"
               codeLabel="GitHub"
               codeHref="https://github.com/pbbaque/Invoice-manager-project"
+            />
+
+            <ProjectCard
+              icon="fas fa-store"
+              gradient="from-blue-400 to-cyan-400"
+              title="Siastyle"
+              description="Tienda Shopify en producción. Personalización de plantilla con Liquid, ajustes visuales y soporte en generación de contenido mediante herramientas de IA asistida."
+              tech={["Shopify", "Liquid", "JavaScript", "IA asistida"]}
+              status="Proyecto freelance · Finalizado · En producción"
+              demoLabel="Ver web"
+              codeLabel="Repositorio privado"
+              demoHref="https://siastyle.shop"
             />
           </div>
         </div>
@@ -448,11 +459,11 @@ function ProjectCard({
             >
               <i className="fas fa-external-link-alt mr-1"></i> {demoLabel}
             </a>
-          ) : (
+          ) : demoLabel ? (
             <span className="text-gray-500 dark:text-gray-400 font-semibold">
               <i className="fas fa-lock mr-1"></i> {demoLabel}
             </span>
-          )}
+          ) : null}
 
           {codeHref ? (
             <a
