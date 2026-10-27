@@ -449,14 +449,14 @@ function ProjectCard({
   codeHref,
 }) {
   return (
-    <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md overflow-hidden card-hover">
+    <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md overflow-hidden card-hover flex flex-col">
       <div
-        className={`h-48 bg-gradient-to-br ${gradient} flex items-center justify-center`}
+        className={`h-48 shrink-0 bg-gradient-to-br ${gradient} flex items-center justify-center`}
       >
         <i className={`${icon} text-white text-6xl`}></i>
       </div>
 
-      <div className="p-6">
+      <div className="p-6 flex flex-1 flex-col">
         <div className="flex items-center justify-between gap-4 mb-2">
           <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
             {title}
@@ -480,7 +480,7 @@ function ProjectCard({
           ))}
         </div>
 
-        <div className="flex gap-4">
+        <div className="mt-auto flex min-h-12 items-start gap-4">
           {demoHref ? (
             <a
               href={demoHref}
