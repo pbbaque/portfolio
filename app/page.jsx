@@ -253,6 +253,8 @@ export default function Home() {
               description="Plataforma bancaria full-stack con frontend Angular y cinco microservicios para autenticación, clientes, cuentas, transferencias y auditoría. Incluye JWT con RSA, operaciones idempotentes, compensación y recuperación de transferencias, y auditoría mediante Kafka y Transactional Outbox."
               tech={["Java", "Spring Boot", "Angular", "Oracle", "Kafka", "Docker"]}
               status="Proyecto personal · Finalizado"
+              demoLabel="Ver demo"
+              demoHref="/videos/banking-platform-demo.mp4"
               codeLabel="GitHub"
               codeHref="https://github.com/pbbaque/banking-platform"
             />
